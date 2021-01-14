@@ -1,9 +1,23 @@
+You are welcome to check more information about the platform below.
+
+#Some Snapshots of my app!! Hope you liked it.
+
+###Login Page
+
 ![myimage-alt-tag](https://github.com/shubhamsgh2/my-todo-app-with-angular-and-spring-boot/blob/main/src/assets/Login.JPG)
-![myimage-alt-tag]()
-![myimage-alt-tag]()
-![myimage-alt-tag]()
-![myimage-alt-tag]()
-![myimage-alt-tag]()
+
+###Welcome Page
+
+![myimage-alt-tag](https://github.com/shubhamsgh2/my-todo-app-with-angular-and-spring-boot/blob/main/src/assets/welcome.JPG)
+
+###My Todo's List Page
+
+![myimage-alt-tag](https://github.com/shubhamsgh2/my-todo-app-with-angular-and-spring-boot/blob/main/src/assets/MyTodo.JPG)
+
+###Logout Page
+
+![myimage-alt-tag](https://github.com/shubhamsgh2/my-todo-app-with-angular-and-spring-boot/blob/main/src/assets/logout.JPG)
+
 
 # Todo
 
