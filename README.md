@@ -1,6 +1,7 @@
-# You are welcome to check more information about the platform below.
 
 # Some Snapshots of my app!! Hope you liked it. 
+
+## You are welcome to check more information about the platform below.
 
 ### Login Page
 
