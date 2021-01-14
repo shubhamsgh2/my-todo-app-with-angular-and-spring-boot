@@ -10,12 +10,12 @@ export class HardcodedAuthenticationService {
   constructor() { }
 
   
-  authenticate(username,password){
+  authenticate(username,password){     // Authentication logic here
 
     //console.log('before'+ this.isUserLoggedIn());
 
     if(username==="Shubham" && password ==='dummy'){
-      sessionStorage.setItem('aunthenticaterUser',username);
+      sessionStorage.setItem('aunthenticaterUser',username);   //  Store ssession to check if user is login or not.(for menu security or others purpose)
 
       //console.log('after'+ this.isUserLoggedIn());
       return true;
@@ -25,12 +25,12 @@ export class HardcodedAuthenticationService {
     }
   }
 
-  isUserLoggedIn(){
+  isUserLoggedIn(){       // to enable the menus while login ( security purpose)
     let user=sessionStorage.getItem('aunthenticaterUser')
-    return !(user === null)
+    return !(user === null)   // return false if user is null ie. no stored session
   }
 
-  logout(){
+  logout(){              // to logout delete the stored session
     sessionStorage.removeItem('aunthenticaterUser');
   }
 }

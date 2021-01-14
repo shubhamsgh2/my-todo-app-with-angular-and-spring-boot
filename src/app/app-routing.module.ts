@@ -9,14 +9,14 @@ import { WelcomeComponent } from './welcome/welcome.component';
 
 //welcome 
 // we can add condition when this routes can be activated 
-//Using NEW SERVICE which imolemet CanActivatessss(Custom service to create for handling )
+//Using NEW SERVICE which imolemet CanActivate(Custom service to create for handling )
 
 const routes: Routes = [
 {path:'',component: LoginComponent}, //CanActivate,RouteGuardService
 {path:'login',component: LoginComponent},
-{path:'welcome/:name',component: WelcomeComponent,canActivate:[RouteGuardService]},// only login user will access this route 
-{path:'todos',component: ListTodosComponent,canActivate:[RouteGuardService]}, // only login user will access this route 
-{path:'logout',component: LogoutComponent,canActivate:[RouteGuardService]}, // only login user will access this route 
+{path:'welcome/:name',component: WelcomeComponent,canActivate:[RouteGuardService]},// only login user will access this route , if not logged in then redirect to login page
+{path:'todos',component: ListTodosComponent,canActivate:[RouteGuardService]}, // only login user will access this route , if not logged in then redirect to login page
+{path:'logout',component: LogoutComponent,canActivate:[RouteGuardService]}, // only login user will access this route , if not logged in then redirect to login page
 
 {path:'**',component: ErrorComponent}
 

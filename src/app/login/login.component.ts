@@ -10,8 +10,8 @@ import { HardcodedAuthenticationService } from '../service/hardcoded-authenticat
 export class LoginComponent implements OnInit {
 username='Shubham'
 password=''
-errorMessage='Invalid Credentials'
-invalidLogin=false
+errorMessage='Invalid Credentials' // for invalid login
+invalidLogin=false   
 
 //Router
 //Angular.giveMeRouter
