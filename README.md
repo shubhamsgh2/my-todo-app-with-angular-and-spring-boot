@@ -1,4 +1,6 @@
-## You are welcome to check more information about the platform below.Hope you liked it. (More features is yet to develop- will be added later)
+## You are welcome to check more information about the platform below. Hope you liked it. (More features is yet to develop- will be added later)
+
+Feel free to pull and suggest some improvements or enhancement. I would like to hear your feedback for the same. :)
 
 ### Login Page
 
