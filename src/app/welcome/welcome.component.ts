@@ -10,14 +10,15 @@ import { WelcomeDataService } from '../service/data/welcome-data.service';
 })
 export class WelcomeComponent implements OnInit {
 //message : string='some welcome message'
-myMessage : boolean
-  
+myMessage : string
+  name
   welcomeMessageFromService: String
 //ActivatedRoute- Dependency injection to accept welcome/:name
   constructor(private route: ActivatedRoute,private service: WelcomeDataService) { }
 
   getWelcome(){
-   this.myMessage=true
+   this.myMessage= "hi, NG-SHOW Worked"
+
   }
 
   getWelcomeMessage(){
