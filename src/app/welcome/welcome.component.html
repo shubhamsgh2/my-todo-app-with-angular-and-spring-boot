@@ -20,5 +20,6 @@
    {{welcomeMessageFromService}}
     </div>
 
-
+    <div class="alert-warning" ng-show='myMessage'>{{myMessage}}</div>
+    <button (click)="getWelcome()" class ="btn btn-success"> Get welcome message for assignment</button>
 </div>

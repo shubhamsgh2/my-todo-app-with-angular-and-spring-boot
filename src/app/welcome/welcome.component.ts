@@ -10,10 +10,15 @@ import { WelcomeDataService } from '../service/data/welcome-data.service';
 })
 export class WelcomeComponent implements OnInit {
 //message : string='some welcome message'
-  name: String
+myMessage : boolean
+  
   welcomeMessageFromService: String
 //ActivatedRoute- Dependency injection to accept welcome/:name
   constructor(private route: ActivatedRoute,private service: WelcomeDataService) { }
+
+  getWelcome(){
+   this.myMessage=true
+  }
 
   getWelcomeMessage(){
     
@@ -39,6 +44,7 @@ export class WelcomeComponent implements OnInit {
 
   handleSuccessfulResponse(response){
     this.welcomeMessageFromService=response.message
+    
     // console.log(response);
     // console.log(response.message)
   }
